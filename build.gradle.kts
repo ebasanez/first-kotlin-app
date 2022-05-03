@@ -14,7 +14,10 @@ repositories {
 }
 
 dependencies {
+    implementation ("org.http4k:http4k-core:4.12.3.0")
+    implementation("org.json:json:20210307")
     testImplementation(kotlin("test"))
+    testImplementation("io.mockk:mockk:1.12.0")
 }
 
 tasks.test {

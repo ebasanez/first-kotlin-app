@@ -9,7 +9,7 @@ class Lesson3Interfaces {
     // Interfaces are declared in a similar way to Java:
     interface MyInterface {
 
-        // Interfaces can have properties
+        // Interfaces can have properties (mutable or final)
         val myAbstractField: String
 
         // Interface properties can be initialized by defining an accessor method
